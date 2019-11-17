@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/yoniihdc/node-express-es6-airbnb#readme",
   "dependencies": {
+    "babel-runtime": "^6.26.0",
     "bcrypt": "^3.0.6",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
