@@ -24,7 +24,7 @@ export default {
         });
     } else {
       res.status(200)
-        .send('OK');
+        .send({ alumno });
     }
   },
 
