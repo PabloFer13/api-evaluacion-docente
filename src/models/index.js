@@ -1,9 +1,9 @@
 import Sequelize from 'sequelize';
 import fs from 'fs';
 import path from 'path';
-// import moment from 'moment';
+import moment from 'moment';
 import config from '../config';
-// import services from '../services';
+
 
 const {
   database,
