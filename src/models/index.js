@@ -41,7 +41,6 @@ Object.keys(db).forEach((modelName) => {
 // sequelize.drop();
 sequelize.sync()
   .then(async () => {
-
     // Crear Alumnos de Prueba
     const dataAlumnos = [
       {

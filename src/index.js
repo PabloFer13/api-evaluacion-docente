@@ -20,7 +20,7 @@ const app = express();
 app.server = http.createServer(app);
 
 // middleware
-app.use(cors());
+app.use(cors({ origin: '*' }));
 
 // swagger Documentation
 const swaggerSpec = swaggerJSDoc(swaggerOptions);

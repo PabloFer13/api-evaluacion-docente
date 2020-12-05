@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
     encuestaStatus: {
       type: DataTypes.STRING,
       comment: 'Status de la encuesta docente',
-    }
+    },
   }, {
     timestamps: true,
     underscored: true,
